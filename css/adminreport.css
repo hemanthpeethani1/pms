@@ -1,0 +1,55 @@
+.main-wrapper .nav-login button[name='Logout']{
+  border-radius: 15px;
+	background-color: white;
+  margin-right: 40px;
+  margin-top: -5px;
+  width: 90px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 30px;
+  outline: none;
+}
+.main-wrapper .nav-login button[name='Logout']:hover{
+  background-color: dodgerblue;
+}
+.main{
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  background-color: #778899;
+  border-radius: 30px;
+  left: 12%;
+  top: 10%;
+}
+.main h3{
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 32px;
+  text-shadow: 2px 2px 4px #000000;
+}
+.main table,th,td{
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+.main table{
+  position: absolute;
+  left: 10%;
+  top: 20%;
+}
+.main th{
+  font-size: 20px;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  text-align: center;
+  height: 25;
+}
+.main td{
+  font-size: 18px;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+  text-align: center;
+  height: 30;
+  vertical-align: middle;
+  color: lightgreen;
+}

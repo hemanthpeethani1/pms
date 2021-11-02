@@ -1,0 +1,158 @@
+body{
+  background-image: url("../images/pms9.jpg");
+  height: 100%;
+  width:100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main-wrapper .nav-login button[name='Logout']{
+  border-radius: 15px;
+	background-color: white;
+  margin-right: 40px;
+  margin-top: -5px;
+  width: 90px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 30px;
+  outline: none;
+}
+.main-wrapper .nav-login button[name='Logout']:hover{
+  background-color: dodgerblue;
+}
+.project{
+  width: 500px;
+  height: 500px;
+  right: 0px;
+  top: 15%;
+  left: 30%;
+  border-radius: 30px;
+  background-color: black;
+  position: absolute;
+}
+.project a{
+  font-size: 25px;
+  text-decoration: none;
+  position: absolute;
+  margin-top: 160px;
+  left: 25%;
+}
+.project h3{
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 32px;
+  text-shadow: 2px 2px 4px #ffffff;
+}
+.project .form input{
+  border: none;
+  border-bottom: 1px solid white;
+  background-color: black;
+  position: relative;
+  outline: none;
+  display: block;
+  color: white;
+  padding: 0px;
+  margin: 0px;
+}
+.project .form input[type=date]::-webkit-input-placeholder{
+  color: black;
+}
+.project .form input:focus{
+  border-bottom: 2px solid #00bfff;
+}
+.project .form .one input{
+  width: 80%;
+  left: 10%;
+  margin-top: 50px;
+}
+.project .form .two input{
+  width: 80%;
+  margin-top: 40px;
+  left: 10%;
+}
+.project .form .three input{
+  width: 80%;
+  margin-top: 40px;
+  left: 10%;
+}
+.project .form .one label{
+  position: absolute;
+  pointer-events: none;
+  top: 98px;
+  left: 50px;
+  font-size: 20px;
+  color: white;
+  font-family: serif;
+  transition: 0.2s;
+}
+.project .form .one input:focus ~ label,
+.project .form .one input:valid ~ label{
+  top: 80px;
+  left: 50px;
+  font-size: 16px;
+  opacity: 1;
+  color: dodgerblue;
+  font-family: cursive;
+}
+.project .form .two label{
+  position: absolute;
+  pointer-events: none;
+  top: 160px;
+  left: 50px;
+  font-size: 20px;
+  color: white;
+  font-family: serif;
+  transition: 0.2s
+}
+.project .form .two input:focus~label,
+.project .form .two input:valid~label{
+  top: 140px;
+  left: 50px;
+  font-size: 16px;
+  opacity: 1;
+  color: dodgerblue;
+  font-family: cursive;
+}
+.project .form .three label{
+  position: absolute;
+  pointer-events: none;
+  top: 222px;
+  left: 50px;
+  font-size: 20px;
+  color: white;
+  font-family: serif;
+  transition: 0.2s;
+}
+.project .form .three input:focus~label,
+.project .form .three input:valid~label{
+  top: 205px;
+  left: 50px;
+  font-size: 16px;
+  opacity: 1;
+  color: dodgerblue;
+  font-family: cursive;
+}
+.project .form .four select{
+  position: absolute;
+  background-color: black;
+  border: none;
+  border-bottom: 1px solid white;
+  left: 10%;
+  top: 55%;
+  width: 80%;
+  color: white;
+  font-size: 18px;
+  outline: none;
+}
+.project .form button{
+  color: #5fae90;
+  font-weight: bold;
+  font-size: 22px;
+  border-radius: 20px;
+  background-color: #87cefa;
+  float: right;
+  padding: 0px 10px;
+  margin-right: 200px;
+  margin-top: 90px;
+}

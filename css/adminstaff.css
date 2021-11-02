@@ -1,0 +1,106 @@
+body{
+  background-image: url("../images/pms9.jpg");
+  height: 100%;
+  width:100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main-wrapper .nav-login button[name='Logout']{
+  border-radius: 15px;
+	background-color: white;
+  margin-right: 40px;
+  margin-top: -5px;
+  width: 90px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 30px;
+  outline: none;
+}
+.main-wrapper .nav-login button[name='Logout']:hover{
+  background-color: dodgerblue;
+}
+.main{
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background-color: grey;
+  top: 20%;
+  left: 35%;
+  border-radius: 30px;
+}
+.main h3{
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 32px;
+  text-shadow: 2px 2px 4px #000000;
+}
+.main .one label{
+position: absolute;
+left: 16%;
+top: 15%;
+font-size: 22px;
+}
+.main .one select{
+  margin-top: 10px;
+  width: 70%;
+  left: 15%;
+  position: absolute;
+  border-radius: 20px;
+  font-size: 20px;
+  top: 20%;
+  outline: none;
+  background-color: grey;
+  color: white;
+  border: none;
+  border-bottom: 1px solid white;
+}
+.main .two input{
+  position: absolute;
+  background-color: grey;
+  border: none;
+  border-bottom: 1px solid white;
+  width: 70%;
+  top: 40%;
+  display: block;
+  left: 15%;
+  outline: none;
+  border-radius: 10px;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+.main .two label{
+  position: absolute;
+  left: 16%;
+  top: 195px;
+  font-size: 22px;
+  pointer-events: none;
+  transition: 0.2s;
+  color: white;
+}
+.main .two input:focus ~ label,
+.main .two input:valid ~ label{
+  top: 175px;
+  left: 16%;
+  font-size: 20px;
+  opacity: 1;
+  color: dodgerblue;
+  font-family: cursive;
+}
+.main button{
+  position: absolute;
+  top: 72%;
+  left: 42%;
+  width: 15%;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.main a{
+  position: absolute;
+  top: 85%;
+  margin-left: 160px;
+  text-decoration: none;
+  font-size: 20px;
+  color: blue;
+}

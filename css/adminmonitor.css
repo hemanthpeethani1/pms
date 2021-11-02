@@ -1,0 +1,51 @@
+.main-wrapper .nav-login button[name='Logout']{
+  border-radius: 15px;
+	background-color: white;
+  margin-right: 40px;
+  margin-top: -5px;
+  width: 90px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 30px;
+  outline: none;
+}
+.main-wrapper .nav-login button[name='Logout']:hover{
+  background-color: dodgerblue;
+}
+.main{
+  position: absolute;
+  height: 400px;
+  width: 450px;
+  left: 35%;
+  top: 25%;
+  border-radius: 20px;
+  background-color: #778899;
+}
+.main h3{
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 32px;
+  text-shadow: 2px 2px 4px #000000;
+}
+.main .one select{
+  position: absolute;
+  border: none;
+  border-bottom: 1px solid white;
+  background-color: #778899;
+  width: 60%;
+  left: 15%;
+  top: 30%;
+  border-radius: 10px;
+  font-size: 20px;
+  outline: none;
+}
+.main button{
+  position: absolute;
+  top: 60%;
+  left: 38%;
+  background-color: lightgreen;
+  width: 20%;
+  border-radius: 15px;
+  height: 30px;
+}

@@ -1,0 +1,45 @@
+.main-wrapper .nav-login button[name='Logout']{
+  border-radius: 15px;
+	background-color: white;
+  margin-right: 40px;
+  margin-top: -5px;
+  width: 90px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 30px;
+}
+.main-wrapper .nav-login button[name='Logout']:hover{
+  background-color: dodgerblue;
+}
+.client{
+  width: 20%;
+  height:30%;
+  left: 20%;
+  position: relative;
+  top: 20%;
+  transition: transform .2s;
+}
+.dev{
+  width: 20%;
+  height: 30%;
+  left: 35%;
+  position: relative;
+  top: 20%;
+  transition: transform .2s;
+}
+.tester{
+  width: 20%;
+  height: 30%;
+  left: 20%;
+  position: relative;
+  top: 30%;
+  transition: transform .2s;
+}
+.project{
+  width: 20%;
+  height: 30%;
+  left: 40%;
+  position: relative;
+  top: 30%;
+  transition: transform .2s;
+}

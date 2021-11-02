@@ -1,0 +1,202 @@
+body{
+  background-image: url("../images/pms9.jpg");
+  height: 100%;
+  width:100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main-wrapper .nav-login button[name='Logout']{
+  border-radius: 15px;
+	background-color: white;
+  margin-right: 40px;
+  margin-top: -5px;
+  width: 90px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 30px;
+  outline: none;
+}
+.main-wrapper .nav-login button[name='Logout']:hover{
+  background-color: dodgerblue;
+}
+.main .signup{
+  width: 500px;
+  height: 550px;
+  right: 0px;
+  top: 15%;
+  left: 30%;
+  border-radius: 30px;
+  background-color: black;
+  position: absolute;
+}
+.main .signup h3{
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 32px;
+  text-shadow: 2px 2px 4px #ffffff;
+}
+.main .signup .signup-form input{
+  border-bottom: 1px solid white;
+  background-color: black;
+  position: relative;
+  outline: none;
+  display: block;
+  color: white;
+  padding: 0px;
+  margin: 0px;
+}
+.main .signup .signup-form input:focus{
+  border-bottom: 2px solid #00bfff;
+}
+.main .signup .signup-form .one{
+  width: 100%;
+  height: 60px;
+}
+.main .signup .signup-form .two{
+  width: 100%;
+  height: 60px;
+}
+.main .signup .signup-form .three{
+  width: 100%;
+  height: 60px;
+}
+.main .signup .signup-form .four{
+  width: 100%;
+  height: 60px;
+}
+.main .signup .signup-form .five{
+  width: 100%;
+  height: 60px;
+}
+.main .signup .signup-form .six select{
+  width: 90%;
+}
+.main .signup .signup-form .one label{
+  position: absolute;
+  pointer-events: none;
+  top: 110px;
+  left: 50px;
+  font-size: 20px;
+  color: white;
+  font-family: serif;
+  transition: 0.2s;
+}
+.main .signup .signup-form .one input:focus ~ label,
+.main .signup .signup-form .one input:valid ~ label{
+  top: 80px;
+  left: 50px;
+  font-size: 16px;
+  opacity: 1;
+  color: dodgerblue;
+  font-family: cursive;
+}
+.main .signup .signup-form .two label{
+  position: absolute;
+  pointer-events: none;
+  top: 170px;
+  left: 50px;
+  font-size: 20px;
+  color: white;
+  font-family: serif;
+  transition: 0.2s;
+}
+.main .signup .signup-form .two input:focus ~ label,
+.main .signup .signup-form .two input:valid ~ label{
+  top: 143px;
+  left: 50px;
+  font-size: 16px;
+  opacity: 1;
+  color: dodgerblue;
+  font-family: cursive;
+}
+.main .signup .signup-form .three label{
+  position: absolute;
+  pointer-events: none;
+  top: 230px;
+  left: 50px;
+  font-size: 20px;
+  color: white;
+  font-family: serif;
+  transition: 0.2s;
+}
+.main .signup .signup-form .three input:focus ~ label,
+.main .signup .signup-form .three input:valid ~ label{
+  top: 203px;
+  left: 50px;
+  font-size: 16px;
+  opacity: 1;
+  color: dodgerblue;
+  font-family: cursive;
+}
+.main .signup .signup-form .four label{
+  position: absolute;
+  pointer-events: none;
+  top: 290px;
+  left: 50px;
+  font-size: 20px;
+  color: white;
+  font-family: serif;
+  transition: 0.2s;
+}
+.main .signup .signup-form .four input:focus ~ label,
+.main .signup .signup-form .four input:valid ~ label{
+  left: 50px;
+  top: 267px;
+  font-size: 16px;
+  opacity: 1;
+  color: dodgerblue;
+  font-family: cursive;
+}
+.main .signup .signup-form .five label{
+  position: absolute;
+  pointer-events: none;
+  top: 350px;
+  left: 50px;
+  font-size: 20px;
+  color: white;
+  font-family: serif;
+  transition: 0.2s;
+}
+.main .signup .signup-form .five input:focus ~ label,
+.main .signup .signup-form .five input:valid ~ label{
+  top: 323px;
+  left: 50px;
+  font-size: 16px;
+  opacity: 1;
+  color: dodgerblue;
+  font-family: cursive;
+}
+.main .signup .signup-form .six select{
+  border: none;
+  border-bottom: 1px solid white;
+  background-color: black;
+  position: relative;
+  outline: none;
+  display: block;
+  color: white;
+  padding: 0px;
+  margin-top: 10px;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+.main .signup .signup-form .four input[type=number]::-webkit-inner-spin-button,
+.main .signup .signup-form .four input[type=number]::-webkit-outer-spin-button{
+  -webkit-appearance: none;
+}
+.main .signup .signup-form .seven button{
+  color: #5fae90;
+  font-weight: bold;
+  margin-top: 30px;
+  font-size: 22px;
+  border-radius: 20px;
+  background-color: #87cefa;
+}
+.main .signup a{
+  font-size: 20px;
+  text-decoration: none;
+  position: absolute;
+  margin-top: 10px;
+  left: 25%;
+}
